@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  /* background-image: url(./background\ image.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 20rem 30rem auto;
+}
+
+
+
+.forTask {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+  width: 30%;
+  padding: 1rem;
+}
+button {
+  padding: 1rem 2.5rem 0.7rem 2.5rem;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  cursor: grab;
+}
+button:hover {
+  background-color:crimson;
+}
+input {
+  border-radius: 10px;
+  padding: 0.5rem 2rem;
+  font-size: 20px;
+}
+.newDiv li {
+  color: white;
+}
+.taskCss {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+  width: 30%;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  background-color: white;
+  font-size: 20px;
+}
+.remove {
+  padding: 0.5rem 1.5rem 0.35rem 1.5rem;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  cursor: grab;
+  margin-left: 8rem;
+  color: white;
+}
+
+.clear-all{
+  margin-left: 8rem;
+  margin-top:5rem
+}
